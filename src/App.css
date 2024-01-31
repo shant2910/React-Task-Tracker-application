@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  background-color: #d3ffd3;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
